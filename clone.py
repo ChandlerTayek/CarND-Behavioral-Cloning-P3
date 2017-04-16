@@ -23,7 +23,7 @@ for line in lines:
         measurement = float(line[3])
         if i == 1:
             measurement += 0.2
-        else if i == 2:
+        elif i == 2:
             measurement -=  0.2
         measurements.append(measurement)
 
